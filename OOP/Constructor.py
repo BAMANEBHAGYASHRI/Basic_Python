@@ -13,7 +13,7 @@ class StudentData:
 
     def student3(self):
         print("Tejal Patil")
-        
+
 
 object=StudentData()
 object.Student1()
