@@ -11,7 +11,7 @@ class oldmobile():
 class mob():
     def getmobile(self,o):
         o.mobiles()
-        
+
 
 
 object=newmobile()
