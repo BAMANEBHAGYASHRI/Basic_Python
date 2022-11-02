@@ -1,12 +1,4 @@
-# side=int(input("Enter your value- "))
-# print("cemtimeter",side)
-# meter=side*0.01
-# print("meteer",meter)
-# squ=meter*meter
-# print("Area of squre",squ)
-
-
-
+#find area size and then convter into meter using cm and mm conversion format
 side=int(input("Enter Your value"))
 area=side*side
 print("Area of Square in Centimeter",area)
