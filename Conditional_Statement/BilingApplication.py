@@ -1,5 +1,5 @@
 s=0
-for i in range(500):
+while(s<500):
     a=int(input("Enter your amount"))
     b=input("do you want continue ")
     s=s+a
