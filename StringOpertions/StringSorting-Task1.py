@@ -1,10 +1,27 @@
-a="bhagyashri vijay bamane"
-# b=a[0].upper()+a[1:10]
-# c=a[11].upper()+a[12:16]
-# d=a[17].upper()+a[18:]
-# print(b,c,d)
+a=input("Enter Your String")
+s=" "
 for i in a:
-    pass
+    if (ord(i) >= 32 and ord(i) <= 47):
+        s=s+i
+    elif (ord(i) >= 48 and ord(i) <= 57):
+        print(i)
+    elif (ord(i) >= 58 and ord(i) <= 64):
+        print(i)
+    elif(ord(i)>=65 and ord(i)<=90):
+        print(i)
+    elif (ord(i) >= 91 and ord(i) <= 96):
+        print(i)
+    elif (ord(i) >= 97 and ord(i) <= 122):
+        pass
+print(s)
+
+
+
+
+
+
+
+
 
 
 
