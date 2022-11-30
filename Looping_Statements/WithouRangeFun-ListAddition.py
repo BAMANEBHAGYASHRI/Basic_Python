@@ -5,7 +5,6 @@ for test in lst:
     sum=0
     for test1 in test:
         sum=sum+test1
-
     t.append(sum)
 print(t)
 

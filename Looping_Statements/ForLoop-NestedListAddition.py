@@ -5,7 +5,9 @@ sum=0
 for i in range(len(lst)):
     if(type(lst[i])==list or type(lst[i])==tuple):
         for j in range(len(lst[i])):
+            # print(lst[i][j])
             sum=sum+lst[i][j]
+
     else:
         sum=sum+lst[i]
 
