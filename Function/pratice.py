@@ -98,16 +98,27 @@
 # add()
 
 
-def add():
-    global a,x,c
-    a=20
-    b=60
-    x=9000
-    print(a+b)
-a=10
-b=30
-c=a+b
-add()
+# def add():
+#     global a,x,c
+#     a=20
+#     b=60
+#     x=9000
+#     print(a+b)
+# a=10
+# b=30
+# c=a+b
+# add()
+# print(c)
+# x=a+c
+# print(x)
+
+
+def test():
+    a=40
+    b=30
+    c=a+b
+    return c,a+c
+
+c=100
+c=test()
 print(c)
-x=a+c
-print(x)
