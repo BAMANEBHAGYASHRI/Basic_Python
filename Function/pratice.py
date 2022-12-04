@@ -113,12 +113,38 @@
 # print(x)
 
 
-def test():
+'''def test():
     a=40
     b=30
     c=a+b
     return c,a+c
 
 c=100
-c=test()
-print(c)
+c=test()'''
+
+
+
+def demo(a,b=20):
+    global c
+    c=a+b
+    return c
+
+x=200
+x=demo(60,104)
+print(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
