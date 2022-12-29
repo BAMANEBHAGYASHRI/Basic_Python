@@ -11,3 +11,4 @@ c=add()
 print(c)
 z=a+c
 print(z)
+print("function inside function",add())
