@@ -9,8 +9,9 @@ print(ord("A"))
 print(bin(15))
 
 #char function
-print(chr(45))
-print(chr("B"))
+print("--------------------",chr(45))
+print("------",chr(90))
+
 
 #find the binary number to ascii value
 print(bin(ord("A")))
