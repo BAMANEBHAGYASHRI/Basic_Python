@@ -1,6 +1,6 @@
 def stringPalindrom(*x):
-    s=x[::-1]
-    return s
+    return x==x[::-1]
+
     
 x=stringPalindrom("aabbaa")
 if(x):

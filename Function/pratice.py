@@ -7,9 +7,10 @@
 #     c=a+b
 #     print(c)
 # a=10
-# b=40
+# b=4
 # print(a+b)
-# simple(a)
+# simple()
+
 
 # def add():
 #     a=20
@@ -124,16 +125,22 @@ c=test()'''
 
 
 
-def demo(a,b=20):
+# def demo(a,b=20):
+#     global c
+#     c=a+b
+#     return c
+#
+# x=200
+# x=demo(60,104)
+# print(x)
+#
+
+def test(a,b=30):
     global c
     c=a+b
-    return c
-
-x=200
-x=demo(60,104)
-print(x)
-
-
+a=50
+test(200,10)
+print(b)
 
 
 
