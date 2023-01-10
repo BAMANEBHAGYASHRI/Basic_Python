@@ -135,12 +135,12 @@ c=test()'''
 # print(x)
 #
 
-def test(a,b=30):
-    global c
-    c=a+b
-a=50
-test(200,10)
-print(b)
+# def test(a,b=30):
+#     global c
+#     c=a+b
+# a=50
+# test(200,10)
+# print(c)
 
 
 

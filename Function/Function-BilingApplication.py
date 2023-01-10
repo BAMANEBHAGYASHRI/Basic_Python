@@ -21,7 +21,7 @@ def bilingapplication():
         d=s*0.15
         amount=s-d
         
-    elif(s1500 and s<=2000):
+    elif(s>1500 and s<=2000):
         print("payable amount")
         d=s*0.20
         amount=s-d
