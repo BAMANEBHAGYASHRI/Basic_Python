@@ -1,5 +1,5 @@
 a="hieeeeee i'm bhagyashri vijay bamane "
-if(ord(a[0])> and ord(a[0])<=122):
+if(ord(a[0])>97 and ord(a[0])<=122):
     c=ord(chr(c),end=" ")
 
 else:
