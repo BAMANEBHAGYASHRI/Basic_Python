@@ -7,3 +7,5 @@ print(lst[2:7])     #prints bwteen values(2....9)
 print(lst[::])      #prints All Elmenets
 print(lst[-7:])     #prints reveseed elements from 7 indexed
 print(lst[::-2])
+a="sarasaa"
+print(a[::-1])
