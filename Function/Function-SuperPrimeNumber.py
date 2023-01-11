@@ -1,37 +1,29 @@
-def superprime():
-    a=int(input("Enter Your value"))
+def superprime(a):
     b=a//2
     state=0
-    lst=[]
-    flag=0
     for i in range(2,a):
         if(i%2==0):
             state=i
-            
             break
-
     if(state==1):
-        print("not prime",a)
+        return False,a
     else:
-        print("prime",a)
-    lst.append(a)
-    print(len(lst))
-    
-    '''for j in range(2,lst):
-        if(j%2==0):
-            flag=i
-            break
-    if(flag==1):
-        print("not super prime")
+       return True,a
 
-    else:
-        print("super prime")'''
-            
-    
-    
-    
-        
-        
+x,y=superprime(31)
+#print(x)
+if(x==True):
+    z=len(str(y))
+    if(z>=2):
+        s=0
+        for j in str(y):
+            s=s+int(j)
+        p,q=superprime(s)
 
-superprime()
+        if(x==True):
+            print(y,"----super prime number")
+        else:
+            print(y,"---not super prime")
+
+
     
