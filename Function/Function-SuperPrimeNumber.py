@@ -19,6 +19,7 @@ if(x==True):
         for j in str(y):
             s=s+int(j)
         p,q=superprime(s)
+        print(p,q)
 
         if(x==True):
             print(y,"----super prime number")

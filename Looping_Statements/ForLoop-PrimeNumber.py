@@ -3,7 +3,7 @@ b=a//2
 flag=0
 for i in range(2,a):
     if(i%2==0):
-        flag=i
+        flag=1
         break
 if(flag==1):
     print("not prime number")
